@@ -23,9 +23,52 @@
 <body>
 
     <div id="photo" style="padding: 2rem;">
-        <div class="container">
+        <div class="container picturewall">
             <div class="row  centercontent">
                 <h3 class="classifier text-black"> - <i class="fas fa-images text-black"></i> - </h3>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="card phototiles">
+                        <a href="../res/img/photography/fullsize/standrews_fullsize.jpg" data-fancybox="images" data-caption="St. Andrews">
+                            <img class="card-img-top img-fluid preview" src="../res/img/photography/thumbnail/standrews_thumbnail.jpg" alt="" />
+                        </a>
+                    </div>
+                    <div class="card phototiles">
+                        <a href="../res/img/photography/fullsize/aberdeen_fullsize.jpg" data-fancybox="images" data-caption="Aberdeen">
+                            <img class="card-img-top img-fluid preview" src="../res/img/photography/thumbnail/aberdeen_thumbnail.jpg" alt="" />
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card phototiles">
+                        <a href="../res/img/photography/fullsize/burger_fullsize.jpg" data-fancybox="images" data-caption="Burger">
+                            <img class="card-img-top img-fluid preview" src="../res/img/photography/thumbnail/burger_thumbnail.jpg" alt="" />
+                        </a>
+                    </div>
+                    <div class="card phototiles">
+                        <a href="../res/img/photography/fullsize/fuerte_fullsize.jpg" data-fancybox="images" data-caption="Fuerteventura">
+                            <img class="card-img-top img-fluid preview" src="../res/img/photography/thumbnail/fuerte_thumbnail.jpg" alt="" />
+                        </a>
+                    </div>
+                    <div class="card phototiles">
+                        <a href="../res/img/photography/fullsize/leonfr_fullsize.jpg" data-fancybox="images" data-caption="Leon FR">
+                            <img class="card-img-top img-fluid preview" src="../res/img/photography/thumbnail/leonfr_thumbnail.jpg" alt="" />
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card phototiles">
+                        <a href="../res/img/photography/fullsize/apulien_fullsize.jpg" data-fancybox="images" data-caption="Puglia">
+                            <img class="card-img-top img-fluid preview" src="../res/img/photography/thumbnail/apulien_thumbnail.jpg" alt="" />
+                        </a>
+                    </div>
+                    <div class="card phototiles">
+                        <a href="../res/img/photography/fullsize/edinburgh_fullsize.jpg" data-fancybox="images" data-caption="Edinburgh">
+                            <img class="card-img-top img-fluid preview" src="../res/img/photography/thumbnail/edinburgh_thumbnail.jpg" alt="" />
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -34,6 +77,13 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <script src="../res/javascript/jquery.fancybox.min.js"></script>
+    <script>
+        $('[data-fancybox]').fancybox({
+            protect: true,
+            toolbar: false,
+            smallBtn: true
+        });
+    </script>
 
 </body>
 
